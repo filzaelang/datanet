@@ -14,12 +14,7 @@ import {
 
 const RootLayout: React.FC = () => {
   const location = useLocation();
-  const isAuthPage = location.pathname === '/login' || location.pathname === '/register';
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  if (isAuthPage) {
-    return <Outlet />;
-  }
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);

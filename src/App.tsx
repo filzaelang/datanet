@@ -1,8 +1,8 @@
 // src/App.tsx
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import LoginForm from './pages/Auth/LoginForm';
-import RegisterForm from './pages/Auth/RegisterForm';
+import LoginForm from './pages/LoginForm';
+import RegisterForm from './pages/RegisterForm';
 import RootLayout from './layout/RootLayout';
 import DataPackages from './pages/DataPackages';
 import TransactionHistory from './pages/TransactionHistory';

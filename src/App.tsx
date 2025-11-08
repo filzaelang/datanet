@@ -17,8 +17,8 @@ function App() {
         <Route path="data-packages" element={<DataPackages />} />
         <Route path="transaction-history" element={<TransactionHistory />} />
         <Route path="settings" element={<Settings />} />
-        <Route path="/login" element={<LoginForm />} />
-        <Route path="/register" element={<RegisterForm />} />
+        <Route path="login" element={<LoginForm />} />
+        <Route path="register" element={<RegisterForm />} />
       </Route>
     </Routes>
   );
